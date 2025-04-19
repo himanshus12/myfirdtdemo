@@ -10,11 +10,21 @@ public class Testlogin {
 		// TODO Auto-generated method stub
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://rahulshettyacademy.com/client");
-		driver.findElement(By.id("userEmail")).sendKeys("userEmail");
-		driver.findElement(By.id("userPassword")).sendKeys("April!2022");
-		driver.findElement(By.id("login")).click();
 		
 		
+		System.out.println("QA");
+		
+		System.out.println("01");
+		System.out.println("02");
+		
+		
+		
+		
+		
+		
+		
+		
+		driver.quit();
 
 	}
 
